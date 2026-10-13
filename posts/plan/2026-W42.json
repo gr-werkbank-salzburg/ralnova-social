@@ -1,0 +1,96 @@
+{
+  "week": "2026-W42",
+  "note": "Erste Woche, von Hand erstellt. Post vom 13.10. 21:00 (Betriebe, Stellenanzeigen) lief separat.",
+  "posts": [
+    {
+      "date": "2026-10-14", "time": "07:00", "audience": "betriebe", "format": "einwand",
+      "file": "posts/2026-10/2026-10-14-0700-betriebe-social-media-probiert.png",
+      "headline": "„Wir haben's schon mit Social Media probiert.“",
+      "body": "Meistens heißt das: ein Foto gepostet, ein paar Likes, keine Bewerbung. Ein Post ist keine Recruiting-Kampagne. Gezielte Anzeigen an Fachkräfte in Ihrer Region sind etwas anderes.",
+      "footer": "Sie zahlen erst, wenn\njemand bei Ihnen anfängt.",
+      "cta": "Jetzt Nachricht schreiben",
+      "caption": "Den Satz hören wir oft. Und fast immer steckt dasselbe dahinter: ein Bild von der Werkstatt gepostet, nette Kommentare, aber keine einzige Bewerbung.\n\nDas liegt nicht daran, dass Social Media nicht funktioniert. Ein normaler Post erreicht vor allem Leute, die Ihren Betrieb schon kennen. Gute Fachkräfte erreichen Sie nur mit gezielten Anzeigen.\n\nSie wollen wissen, wie das bei Ihnen aussehen würde? Schreiben Sie uns.\n\n#handwerk #salzburg #mitarbeitergewinnung #fachkräftemangel"
+    },
+    {
+      "date": "2026-10-14", "time": "19:00", "audience": "handwerker", "format": "these",
+      "file": "posts/2026-10/2026-10-14-handwerker-gesehen.png",
+      "headline": "Du bist gut in deinem Handwerk. Wird das bei dir auch gesehen?",
+      "body": "Wir bringen Gesellen und Fachkräfte mit Betrieben in Salzburg zusammen, die gute Leute halten wollen. Kein Lebenslauf nötig für den ersten Schritt.",
+      "footer": "Tischler · Elektriker · Maler\nund weitere Gewerke",
+      "cta": "Schreib uns „JOB“",
+      "caption": "Gute Handwerker gibt's in Salzburg genug. Betriebe, die das auch zeigen, leider weniger.\n\nWir bringen dich mit Betrieben zusammen, die gute Leute halten wollen. Kein Lebenslauf für den ersten Schritt, einfach „JOB“ schreiben.\n\n#handwerkerjobs #salzburg #tischler #elektriker #jobsalzburg"
+    },
+    {
+      "date": "2026-10-15", "time": "07:00", "audience": "betriebe", "format": "ablauf",
+      "file": "posts/2026-10/2026-10-15-0700-betriebe-ablauf.png",
+      "headline": "Vom ersten Gespräch zur Einstellung.",
+      "body": "1  Wir klären, wen Sie wirklich brauchen.\n2  Wir zeigen Ihren Betrieb den passenden Leuten.\n3  Wir sprechen vorab mit jedem Interessenten.\n4  Sie führen nur die Gespräche, die passen.",
+      "footer": "Realistisch: rund 60 Tage\nbis zur ersten Einstellung.",
+      "cta": "Jetzt Nachricht schreiben",
+      "caption": "So läuft Mitarbeitergewinnung mit uns ab, in vier Schritten.\n\nSie müssen sich um keine Technik kümmern und keine 100 Bewerbungen sortieren. Auf Ihrem Tisch landen nur Leute, die zu Ihrem Betrieb passen.\n\nUnd ehrlich gesagt: Das ist kein Schalter zum Umlegen. Realistisch reden wir über rund 60 Tage bis zur ersten Einstellung.\n\n#handwerk #salzburg #mitarbeitergewinnung #recruiting"
+    },
+    {
+      "date": "2026-10-15", "time": "19:00", "audience": "handwerker", "format": "einstieg",
+      "file": "posts/2026-10/2026-10-15-1900-handwerker-kein-lebenslauf.png",
+      "headline": "Auf der Baustelle zählt Können. Nicht dein Lebenslauf.",
+      "body": "Für den Anfang reicht eine kurze Nachricht: Was machst du, was suchst du, was soll besser werden. Den Rest klären wir im Gespräch.",
+      "footer": "Unverbindlich und diskret.\nDein Chef erfährt nichts.",
+      "cta": "Schreib uns „JOB“",
+      "caption": "Bewerbungsmappe, Anschreiben, Lebenslauf: Darauf hat nach Feierabend keiner Lust.\n\nBei uns musst du das nicht. Schreib uns kurz, was du machst und was dich in deinem jetzigen Job stört. Wir melden uns und reden ganz normal mit dir.\n\nUnverbindlich und diskret.\n\n#handwerkerjobs #salzburg #jobwechsel #handwerk"
+    },
+    {
+      "date": "2026-10-16", "time": "07:00", "audience": "betriebe", "format": "kosten",
+      "file": "posts/2026-10/2026-10-16-0700-betriebe-offene-stelle-kosten.png",
+      "headline": "Was kostet Sie eine offene Stelle?",
+      "body": "Rechnen Sie kurz mit:\nFehlende Leute × Monate offen × Umsatz pro Mitarbeiter.\n\nDie Zahl, die da rauskommt, ist das Geld, das gerade an Ihnen vorbeiläuft.",
+      "footer": "Sie zahlen erst, wenn\njemand bei Ihnen anfängt.",
+      "cta": "Jetzt Nachricht schreiben",
+      "caption": "Eine offene Stelle kostet nicht nur Nerven.\n\nJeder Auftrag, den Sie schieben oder absagen müssen, weil niemand frei ist, ist Umsatz, der woanders landet. Rechnen Sie es einmal für Ihren Betrieb durch.\n\nWenn die Zahl Sie überrascht, reden wir. Schreiben Sie uns.\n\n#handwerk #salzburg #fachkräftemangel #unternehmer"
+    },
+    {
+      "date": "2026-10-16", "time": "19:00", "audience": "handwerker", "format": "checkliste",
+      "file": "posts/2026-10/2026-10-16-1900-handwerker-guter-betrieb.png",
+      "headline": "Woran du einen guten Betrieb erkennst.",
+      "body": "–  Lohn kommt pünktlich, ohne Nachfragen\n–  Werkzeug und Maschinen funktionieren\n–  Fahrzeiten werden bezahlt\n–  Der Chef hört zu",
+      "footer": "Fehlt bei dir einer davon?",
+      "cta": "Schreib uns „JOB“",
+      "caption": "Vier Dinge, die ein guter Betrieb einfach erfüllt. Ohne Diskussion.\n\nWie viele davon hakst du bei deinem aktuellen Job ab? Schreib's in die Kommentare.\n\nUnd wenn's weniger als vier sind: Schreib uns „JOB“.\n\n#handwerkerjobs #salzburg #handwerk #arbeitgeber"
+    },
+    {
+      "date": "2026-10-17", "time": "07:00", "audience": "betriebe", "format": "these",
+      "file": "posts/2026-10/2026-10-17-0700-betriebe-team-zeigen.png",
+      "headline": "Ihr Team ist Ihre beste Stellen­anzeige.",
+      "body": "Fachkräfte wollen wissen, wie es bei Ihnen wirklich ist: das Team, die Werkstatt, die Projekte. Genau das zeigen unsere Anzeigen. Keine Liste mit Anforderungen.",
+      "footer": "Sie zahlen erst, wenn\njemand bei Ihnen anfängt.",
+      "cta": "Jetzt Nachricht schreiben",
+      "caption": "„Wir suchen einen Gesellen (m/w/d) mit Erfahrung.“ So sieht fast jede Stellenanzeige aus, und so wird sie auch überlesen.\n\nWas einen Handwerker wirklich zum Wechseln bringt: zu sehen, wie es bei Ihnen läuft. Wer im Team ist, woran Sie arbeiten, was anders ist als beim jetzigen Chef.\n\nGenau das zeigen wir. Schreiben Sie uns, wenn Sie gerade suchen.\n\n#handwerk #salzburg #employerbranding #mitarbeitergewinnung"
+    },
+    {
+      "date": "2026-10-17", "time": "19:00", "audience": "handwerker", "format": "these",
+      "file": "posts/2026-10/2026-10-17-1900-handwerker-zufrieden.png",
+      "headline": "Zufrieden ist nicht dasselbe wie gut aufgehoben.",
+      "body": "Viele gute Handwerker bleiben nur, weil Wechseln mühsam ist. Wir machen den ersten Schritt einfach: eine Nachricht, ein kurzes Gespräch, unverbindlich.",
+      "footer": "Tischler · Elektriker · Maler\nund weitere Gewerke",
+      "cta": "Schreib uns „JOB“",
+      "caption": "„Passt schon“ ist kein Grund zu bleiben.\n\nWenn du ehrlich bist: Würdest du dich heute nochmal für deinen Betrieb entscheiden? Wenn nicht, lohnt sich ein Gespräch. Kostet dich nichts, und niemand erfährt davon.\n\nSchreib uns „JOB“.\n\n#handwerkerjobs #salzburg #jobwechsel #handwerk"
+    },
+    {
+      "date": "2026-10-18", "time": "07:00", "audience": "betriebe", "format": "frage",
+      "file": "posts/2026-10/2026-10-18-0700-betriebe-auftraege-geschoben.png",
+      "headline": "Wie viele Aufträge haben Sie dieses Jahr geschoben?",
+      "body": "Weil niemand frei war. Weil die Leute schon am Limit sind. Weil die Stelle seit Monaten offen ist.\n\nSchreiben Sie uns die Zahl, ganz ehrlich.",
+      "footer": "Wir sagen Ihnen in einem\nkurzen Gespräch, ob wir helfen können.",
+      "cta": "Jetzt Nachricht schreiben",
+      "caption": "Eine Frage zum Sonntag: Wie viele Aufträge mussten Sie dieses Jahr schieben oder absagen, weil Ihnen Leute gefehlt haben?\n\nSchreiben Sie die Zahl gerne in die Kommentare oder direkt an uns. Wir sagen Ihnen ehrlich, ob und wie wir helfen können.\n\n#handwerk #salzburg #fachkräftemangel #unternehmer"
+    },
+    {
+      "date": "2026-10-18", "time": "19:00", "audience": "handwerker", "format": "frage",
+      "file": "posts/2026-10/2026-10-18-1900-handwerker-montag.png",
+      "headline": "Morgen ist Montag. Freust du dich drauf?",
+      "body": "Wenn die ehrliche Antwort Nein ist, lohnt sich ein Gespräch. Wir suchen für Betriebe in Salzburg Gesellen und Fachkräfte. Ohne Bewerbungsmappe.",
+      "footer": "Unverbindlich und diskret.",
+      "cta": "Schreib uns „JOB“",
+      "caption": "Sonntagabend-Gefühl schon da?\n\nDas muss nicht so bleiben. Schreib uns „JOB“ und erzähl uns kurz, was du machst. Wir melden uns, ganz ohne Bewerbungsmappe.\n\n#handwerkerjobs #salzburg #jobwechsel #montag"
+    }
+  ]
+}
