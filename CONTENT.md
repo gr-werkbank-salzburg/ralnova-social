@@ -60,3 +60,19 @@ Ralnova Connect (vormals G&R Werkbank Salzburg), gegründet von Noah und Lorenz.
 5. Commit + Push nach `main`.
 6. Jeden Post in Metricool einplanen: Facebook + Instagram, `draft: false`, `autoPublish: true`, Bild-URL `https://raw.githubusercontent.com/gr-werkbank-salzburg/ralnova-social/main/<file>`, mediaAltText = Überschrift.
 7. Mit `getScheduledPosts` prüfen, dass alle 14 Posts drin sind.
+
+## Stories (1 pro Tag, 14:00, Instagram + Facebook)
+Das Team postet zusätzlich selbst echte Stories aus dem Arbeitsalltag. Unsere automatische Story ergänzt das, sie ersetzt es nicht.
+
+- Format: animiertes Video 1080×1920, 10 Sekunden, mit eigener Musik. Vorlagen: `tools/stories/intro.html` (Aussage/Vorstellung) und `tools/stories/frage.html` (Frage mit A/B/C). Für jede Story eine neue HTML-Datei `tools/stories/<datum>-<stichwort>.html` anlegen, aufgebaut wie die Vorlagen (Flex-Spalte, `padding:290px 96px 340px`, damit oben und unten die Instagram-Bedienelemente nichts verdecken; Elemente erscheinen nacheinander per CSS-Animation, letztes Element spätestens nach ~6,5 s).
+- Abwechseln über die Woche: Farbwelten aus der Palette oben, Hintergrundbewegung (Streifen, Glow, Kreise, Linien …) und Story-Typ:
+  - Frage mit A/B/C, Antwort per Nachricht (Umfrage-Sticker gehen automatisch nicht)
+  - Ein Satz / eine These, groß, Zeile für Zeile
+  - Kurzer Tipp in 3 Schritten
+  - „Neuer Beitrag im Feed“: Überschrift des heutigen Feed-Posts anteasern
+  - Wer wir sind / was wir machen
+  - Mythos vs. Wahrheit
+- Abwechselnd Betriebe (Sie/ihr) und Handwerker (du) ansprechen. Gleiche harte Regeln wie bei den Posts.
+- Musik: `python3 tools/make_music.py tools/music/<datum>.wav 10 <variant>` (variant = Wochentag 0–6, damit jede Story etwas anders klingt). Nur selbst erzeugte Musik verwenden, nie fremde Songs.
+- Rendern: `python3 tools/render_story.py tools/stories/<datei>.html posts/stories/<datum>-<stichwort>.mp4 10 tools/music/<datum>.wav`. Danach Standbilder bei Sekunde 1,5 / 3,5 / 5,5 / 9,5 prüfen (nichts überlappt, nichts abgeschnitten).
+- Einplanen: providers instagram + facebook, `instagramData {"type":"STORY"}`, `facebookData {"type":"STORY"}`, KEIN `text`, media = Raw-URL der MP4.

@@ -1,0 +1,31 @@
+<!doctype html><html lang="de"><head><meta charset="utf-8"><style>
+body{margin:0;background:#23302A}
+.s{width:1080px;height:1920px;position:relative;overflow:hidden;background:#23302A;color:#F1EEE4;font-family:'Liberation Sans',Arial,sans-serif}
+.lines{position:absolute;inset:-200px;background:repeating-linear-gradient(0deg,rgba(217,194,126,.06) 0 4px,transparent 4px 90px);animation:rise 10s linear forwards}
+@keyframes rise{from{transform:translateY(0)}to{transform:translateY(-180px)}}
+.c{position:absolute;inset:0;box-sizing:border-box;padding:290px 96px 340px;display:flex;flex-direction:column}
+.brand{font-weight:700;font-size:44px;letter-spacing:.06em;opacity:0;animation:fade .6s ease-out .2s forwards}
+.brand span{color:#D9C27E}
+.lab{margin-top:110px;display:inline-block;align-self:flex-start;font-size:42px;font-weight:900;letter-spacing:.12em;padding:12px 26px;border-radius:10px;opacity:0}
+.m{background:rgba(241,238,228,.12);color:#A8B3A9;animation:up .5s ease-out .6s forwards}
+.myth{margin-top:28px;font-size:92px;font-weight:900;line-height:1.06;color:#A8B3A9;opacity:0;animation:up .6s ease-out 1s forwards}
+.myth s{text-decoration:none;background:linear-gradient(#E26D5A,#E26D5A) no-repeat 0 55%/0% 8px;animation:cross .6s ease-out 2.4s forwards}
+@keyframes cross{to{background-size:100% 8px}}
+.w{margin-top:90px;background:#D9C27E;color:#23302A;animation:up .5s ease-out 3.1s forwards}
+.truth{margin-top:28px;font-size:104px;font-weight:900;line-height:1.04;letter-spacing:-.01em;opacity:0;animation:up .6s cubic-bezier(.2,.8,.2,1) 3.5s forwards}
+.truth span{color:#D9C27E}
+.cta{margin-top:auto;background:#D9C27E;color:#23302A;border-radius:20px;padding:44px 48px;font-weight:900;font-size:56px;line-height:1.12;opacity:0;animation:up .6s cubic-bezier(.2,.8,.2,1) 5.6s forwards}
+.cta small{display:block;font-weight:700;font-size:38px;margin-top:14px}
+@keyframes up{from{opacity:0;transform:translateY(60px)}to{opacity:1;transform:none}}
+@keyframes fade{to{opacity:1}}
+</style></head><body><div class="s">
+<div class="lines"></div>
+<div class="c">
+<div class="brand">RALNOVA <span>CONNECT</span></div>
+<div class="lab m">MYTHOS</div>
+<div class="myth"><s>„Fachkräfte sind nicht auf Instagram.“</s></div>
+<div class="lab w">WAHRHEIT</div>
+<div class="truth">Sie sind da. Sie suchen nur <span>keinen Job.</span></div>
+<div class="cta">Genau dort erreichen wir sie für euch.<small>Schreibt uns, wenn ihr gerade sucht.</small></div>
+</div>
+</div></body></html>
