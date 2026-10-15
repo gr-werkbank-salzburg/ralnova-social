@@ -1,0 +1,34 @@
+<!doctype html><html lang="de"><head><meta charset="utf-8"><style>
+body{margin:0;background:#1B1A18}
+.s{width:1080px;height:1920px;position:relative;overflow:hidden;background:#1B1A18;color:#F4EFE6;font-family:'Liberation Sans',Arial,sans-serif}
+.stripes{position:absolute;inset:-400px;background:repeating-linear-gradient(-45deg,rgba(232,131,58,.07) 0 60px,transparent 60px 160px);animation:drift 10s linear forwards}
+@keyframes drift{from{transform:translateX(0)}to{transform:translateX(320px)}}
+.c{position:absolute;inset:0;box-sizing:border-box;padding:290px 96px 340px;display:flex;flex-direction:column}
+.brand{font-weight:700;font-size:44px;letter-spacing:.06em;opacity:0;animation:fadeL .6s ease-out .2s forwards}
+.brand span{color:#E8833A}
+.bar{height:12px;width:0;background:#E8833A;margin:28px 0 90px;animation:grow .8s cubic-bezier(.2,.8,.2,1) .5s forwards}
+@keyframes grow{to{width:220px}}
+.l{font-weight:900;letter-spacing:-.02em;line-height:1.05;font-size:140px;opacity:0}
+.l1{animation:up .6s cubic-bezier(.2,.8,.2,1) 1s forwards}
+.l2{color:#E8833A;animation:up .6s cubic-bezier(.2,.8,.2,1) 1.6s forwards}
+.p{margin-top:70px;font-size:54px;line-height:1.32;color:#D9D2C6;opacity:0;animation:up .7s ease-out 3s forwards}
+.p b{color:#F4EFE6}
+.tags{margin-top:60px;display:flex;flex-wrap:wrap;gap:20px}
+.tag{border:3px solid #E8833A;border-radius:999px;padding:16px 32px;font-size:40px;font-weight:700;opacity:0;transform:scale(.6)}
+.t1{animation:pop .4s ease-out 4.6s forwards}.t2{animation:pop .4s ease-out 4.9s forwards}.t3{animation:pop .4s ease-out 5.2s forwards}
+.cta{margin-top:auto;background:#E8833A;color:#1B1A18;border-radius:20px;padding:44px 48px;font-weight:900;font-size:58px;line-height:1.12;opacity:0;animation:up .6s cubic-bezier(.2,.8,.2,1) 6.6s forwards}
+.cta small{display:block;font-weight:700;font-size:38px;margin-top:14px}
+@keyframes up{from{opacity:0;transform:translateY(60px)}to{opacity:1;transform:none}}
+@keyframes fadeL{from{opacity:0;transform:translateX(-40px)}to{opacity:1;transform:none}}
+@keyframes pop{to{opacity:1;transform:scale(1)}}
+</style></head><body><div class="s">
+<div class="stripes"></div>
+<div class="c">
+<div class="brand">RALNOVA <span>CONNECT</span></div><div class="bar"></div>
+<div class="l l1">Zwei Gründer.</div>
+<div class="l l2">Ein Ziel.</div>
+<div class="p">Handwerksbetrieben in Salzburg die <b>Fachkräfte bringen, die sie wirklich brauchen.</b> Ohne Jobportal, ohne Stapel unpassender Bewerbungen.</div>
+<div class="tags"><div class="tag t1">Social Recruiting</div><div class="tag t2">Webseiten</div><div class="tag t3">Salzburg</div></div>
+<div class="cta">Ab jetzt zeigen wir euch hier unseren Alltag.<small>Folgen und dabei sein →</small></div>
+</div>
+</div></body></html>
